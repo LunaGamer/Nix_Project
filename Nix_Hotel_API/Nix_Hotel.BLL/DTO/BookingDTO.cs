@@ -32,13 +32,13 @@ namespace Nix_Hotel.BLL.DTO
             set;
         }
 
-        public DateTime? ArrivalDate
+        public DateTime ArrivalDate
         {
             get;
             set;
         }
 
-        public DateTime? CheckoutDate
+        public DateTime CheckoutDate
         {
             get;
             set;

@@ -35,13 +35,13 @@ namespace Nix_Hotel.DAL.Enteties
             set;
         }
 
-        public DateTime? ArrivalDate
+        public DateTime ArrivalDate
         {
             get;
             set;
         }
 
-        public DateTime? CheckoutDate
+        public DateTime CheckoutDate
         {
             get;
             set;
@@ -54,21 +54,21 @@ namespace Nix_Hotel.DAL.Enteties
         }
 
         [ForeignKey("ClientId")]
-        public virtual Client ClientBooking
+        public virtual Client BookingClient
         {
             get;
             set;
         }
 
         [ForeignKey("RoomId")]
-        public virtual Room RoomBooking
+        public virtual Room BookingRoom
         {
             get;
             set;
         }
 
         [ForeignKey("StatusId")]
-        public virtual Status StatusBooking
+        public virtual Status BookingStatus
         {
             get;
             set;

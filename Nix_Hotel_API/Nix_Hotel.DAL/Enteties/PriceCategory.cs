@@ -42,7 +42,7 @@ namespace Nix_Hotel.DAL.Enteties
         }
 
         [ForeignKey("CategoryId")]
-        public virtual Category RoomCategory
+        public virtual Category CategoryPrice
         {
             get;
             set;

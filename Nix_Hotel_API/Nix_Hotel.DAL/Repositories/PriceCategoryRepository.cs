@@ -39,5 +39,10 @@ namespace Nix_Hotel.DAL.Repositories
             if (price != null)
                 db.Prices.Remove(price);
         }
+
+        public void Update(int id, PriceCategory item)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

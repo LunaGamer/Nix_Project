@@ -39,5 +39,19 @@ namespace Nix_Hotel.DAL.Repositories
             if (booking != null)
                 db.Bookings.Remove(booking);
         }
+
+        public void Update(int id, Booking item)
+        {
+            Booking booking = Get(id);
+            if (booking != null)
+            {
+                booking.BookingDate = item.BookingDate;
+                booking.ArrivalDate = item.ArrivalDate;
+                booking.CheckoutDate = item.CheckoutDate;
+                booking.ClientId = item.ClientId;
+                booking.RoomId = item.RoomId;
+                booking.StatusId = item.StatusId;
+            }
+        }
     }
 }

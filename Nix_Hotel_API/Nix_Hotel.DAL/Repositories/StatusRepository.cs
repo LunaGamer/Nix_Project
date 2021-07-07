@@ -39,5 +39,10 @@ namespace Nix_Hotel.DAL.Repositories
             if (status != null)
                 db.Statuses.Remove(status);
         }
+
+        public void Update(int id, Status item)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

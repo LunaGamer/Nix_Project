@@ -39,5 +39,15 @@ namespace Nix_Hotel.DAL.Repositories
             if (client != null)
                 db.Clients.Remove(client);
         }
+
+        public void Update(int id, Client item)
+        {
+            Client client = Get(id);
+            if (client != null)
+            {
+                client.Name = item.Name;
+                client.Surname = item.Surname;
+            }
+        }
     }
 }

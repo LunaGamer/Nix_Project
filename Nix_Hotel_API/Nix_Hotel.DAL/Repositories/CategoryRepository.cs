@@ -39,5 +39,17 @@ namespace Nix_Hotel.DAL.Repositories
             if (category != null)
                 db.Categories.Remove(category);
         }
+
+        public void Update(int id, Category item)
+        {
+            Category category = Get(id);
+            if (category != null)
+            {
+                category.Name = item.Name;
+                category.Prices = item.Prices;
+                category.Rooms = item.Rooms;
+                category.Beds = item.Beds;
+            }
+        }
     }
 }

@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace Nix_Hotel.BLL.Interfaces
 {
-    interface IRoomService
+    public interface IRoomService
     {
         IEnumerable<RoomDTO> GetAllRooms();
-
         RoomDTO Get(int id);
-
         IEnumerable<RoomDTO> GetFreeRooms(DateTime startDate, DateTime endDate);
+        void Update (int id, RoomDTO room);
     }
 }

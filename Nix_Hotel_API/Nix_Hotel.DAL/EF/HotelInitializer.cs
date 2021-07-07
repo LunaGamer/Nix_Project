@@ -12,7 +12,23 @@ namespace Nix_Hotel.DAL.EF
     {
         private void ClientInitializer(HotelModel context)
         {
-            var clientList = new List<Client>();
+            var clientList = new List<Client>()
+            {
+                new Client()
+                {
+                    Id = 1,
+                    Name = "TestClientName1",
+                    Surname = "TestClientSurname1"
+
+                },
+                new Client()
+                {
+                    Id = 2,
+                    Name = "TestClientName2",
+                    Surname = "TestClientSurname2"
+
+                }
+            };
 
             foreach (var client in clientList)
             {
@@ -23,7 +39,30 @@ namespace Nix_Hotel.DAL.EF
 
         private void RoomInitializer(HotelModel context)
         {
-            var roomList = new List<Room>();
+            var roomList = new List<Room>()
+            {
+                new Room()
+                {
+                    Id = 1,
+                    CategoryId = 1,
+                    Name = "Room1",
+                    Active = true
+                },
+                new Room()
+                {
+                    Id = 2,
+                    CategoryId = 1,
+                    Name = "Room2",
+                    Active = true
+                },
+                new Room()
+                {
+                    Id = 3,
+                    CategoryId = 2,
+                    Name = "Room3-A",
+                    Active = true
+                }
+            };
 
             foreach (var room in roomList)
             {
@@ -34,7 +73,21 @@ namespace Nix_Hotel.DAL.EF
 
         private void CategoryInitializer(HotelModel context)
         {
-            var categoryList = new List<Category>();
+            var categoryList = new List<Category>()
+            {
+                new Category()
+                {
+                    Id = 1,
+                    Name = "Category1",
+                    Beds = 1
+                },
+                new Category()
+                {
+                    Id = 2,
+                    Name = "Category2",
+                    Beds = 2
+                }
+            };
 
             foreach (var category in categoryList)
             {
@@ -45,7 +98,23 @@ namespace Nix_Hotel.DAL.EF
 
         private void PriceInitializer(HotelModel context)
         {
-            var priceList = new List<PriceCategory>();
+            var priceList = new List<PriceCategory>()
+            {
+                new PriceCategory()
+                {
+                    Id = 1,
+                    CategoryId = 1,
+                    Price = 100,
+                    StartDate = new DateTime(2021,01,01)
+                },
+                new PriceCategory()
+                {
+                    Id = 2,
+                    CategoryId = 2,
+                    Price = 300,
+                    StartDate = new DateTime(2021,01,01)
+                }
+            };
 
             foreach (var price in priceList)
             {
@@ -56,7 +125,29 @@ namespace Nix_Hotel.DAL.EF
 
         private void BookingInitializer(HotelModel context)
         {
-            var bookingList = new List<Booking>();
+            var bookingList = new List<Booking>()
+            {
+                new Booking()
+                {
+                    Id = 1,
+                    ClientId = 1,
+                    RoomId = 3,                    
+                    BookingDate = new DateTime(2021, 7, 5),
+                    ArrivalDate = new DateTime(2021, 7, 25),
+                    CheckoutDate = new DateTime(2021, 8, 5),
+                    StatusId = 1
+                },
+                new Booking()
+                {
+                    Id = 2,
+                    ClientId = 2,
+                    RoomId = 2,
+                    BookingDate = new DateTime(2021, 5, 10),
+                    ArrivalDate = new DateTime(2021, 5, 21),
+                    CheckoutDate = new DateTime(2021, 5, 29),
+                    StatusId = 3
+                }
+            };
 
             foreach (var booking in bookingList)
             {
@@ -104,11 +195,12 @@ namespace Nix_Hotel.DAL.EF
         protected override void Seed(HotelModel context)
         {
             ClientInitializer(context);
-            RoomInitializer(context);
             CategoryInitializer(context);
+            StatusInitializer(context);
+            RoomInitializer(context);            
             PriceInitializer(context);
             BookingInitializer(context);
-            StatusInitializer(context);
+            
         }
     }
 }

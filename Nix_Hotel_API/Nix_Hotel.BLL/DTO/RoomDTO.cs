@@ -20,6 +20,12 @@ namespace Nix_Hotel.BLL.DTO
             set;
         }
 
+        /*public int CategoryId
+        {
+            get;
+            set;
+        }*/
+
         public CategoryDTO Category
         {
             get;
