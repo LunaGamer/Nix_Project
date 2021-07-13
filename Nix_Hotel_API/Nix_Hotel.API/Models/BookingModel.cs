@@ -48,5 +48,21 @@ namespace Nix_Hotel.API.Models
             get;
             set;
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is BookingModel)
+            {
+                var booking = obj as BookingModel;
+                return this.Id == booking.Id &&
+                    this.BookingDate == booking.BookingDate &&
+                    this.ArrivalDate == booking.ArrivalDate &&
+                    this.CheckoutDate == booking.CheckoutDate &&
+                    this.Client.Id == booking.Client.Id &&
+                    this.Room.Id == booking.Room.Id &&
+                    this.Status.Id == booking.Status.Id;
+            }
+            return base.Equals(obj);
+        }
     }
 }

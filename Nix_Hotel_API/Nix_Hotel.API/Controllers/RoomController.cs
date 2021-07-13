@@ -120,6 +120,7 @@ namespace Nix_Hotel.API.Controllers
                 if (oldRoom != null && value != null)
                 {
                     var newRoom = mapperWrite.Map<RoomModel, RoomDTO>(value);
+                    newRoom.Id = id;
                     newRoom.Category = mapperCategory.Map<CategoryModel, CategoryDTO>(value.Category);
                     service.Update(id, newRoom);
                     return Get(request, id);
@@ -132,9 +133,9 @@ namespace Nix_Hotel.API.Controllers
             }
         }
 
-        public void Delete(int id)
+        public HttpResponseMessage Delete(HttpRequestMessage request, int id)
         {
-
+            return request.CreateResponse(HttpStatusCode.BadRequest);
         }
     }
 }

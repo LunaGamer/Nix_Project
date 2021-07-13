@@ -24,5 +24,17 @@ namespace Nix_Hotel.API.Models
             get;
             set;
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is ClientModel)
+            {
+                var client = obj as ClientModel;
+                return this.Id == client.Id &&
+                    this.Name == client.Name &&
+                    this.Surname == client.Surname;
+            }
+            return base.Equals(obj);
+        }
     }
 }

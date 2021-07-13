@@ -19,12 +19,6 @@ namespace Nix_Hotel.API.Models
             set;
         }
 
-        /*public int CategoryId
-        {
-            get;
-            set;
-        }*/
-
         public CategoryModel Category
         {
             get;
@@ -35,6 +29,19 @@ namespace Nix_Hotel.API.Models
         {
             get;
             set;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is RoomModel)
+            {
+                var room = obj as RoomModel;
+                return this.Id == room.Id &&
+                    this.Name == room.Name &&
+                    this.Category.Id == room.Category.Id &&
+                    this.Active == room.Active;
+            }
+            return base.Equals(obj);
         }
     }
 }

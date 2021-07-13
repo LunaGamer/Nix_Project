@@ -75,6 +75,7 @@ namespace Nix_Hotel.API.Controllers
                 if (value != null)
                 {
                     var newClient = mapperWrite.Map<ClientModel, ClientDTO>(value);
+                    newClient.Id = service.GetAllClients().Count() + 1;
                     service.Create(newClient);
                     return Get(request, newClient.Id);
                 }
@@ -95,6 +96,7 @@ namespace Nix_Hotel.API.Controllers
                 if (oldClient != null && value != null)
                 {
                     var newClient = mapperWrite.Map<ClientModel, ClientDTO>(value);
+                    newClient.Id = id;
                     service.Update(id, newClient);
                     return Get(request, id);
                 }
@@ -106,9 +108,9 @@ namespace Nix_Hotel.API.Controllers
             }
         }
 
-        public void Delete(int id)
+        public HttpResponseMessage Delete(HttpRequestMessage request, int id)
         {
-
+            return request.CreateResponse(HttpStatusCode.BadRequest);
         }
     }
 }

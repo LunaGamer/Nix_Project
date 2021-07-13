@@ -102,7 +102,7 @@ namespace Nix_Hotel.API.Controllers
         {
             try
             {
-                if ((Month > 0 || Month <= 12) && Year >= 2000 && Year <= 2100)
+                if ((Month > 0 && Month <= 12) && (Year >= 2000 && Year <= 2100))
                 {
                     var date = new DateTime(Year, Month, 1);
                     var gane = service.Gain(date);
@@ -124,6 +124,7 @@ namespace Nix_Hotel.API.Controllers
                 if (value != null)
                 {
                     var bookingDTO = mapperWrite.Map<BookingModel, BookingDTO>(value);
+                    value.Id = service.GetAllBookings().Count() + 1;
                     bookingDTO.Room = mapperRoomWrite.Map<RoomModel, RoomDTO>(value.Room);
                     bookingDTO.Room.Category = mapperCategory.Map<CategoryModel, CategoryDTO>(value.Room.Category);
                     bookingDTO.Client = mapperClient.Map<ClientModel, ClientDTO>(value.Client);
@@ -132,7 +133,7 @@ namespace Nix_Hotel.API.Controllers
                     if (freeRooms.Find(x => x.Id == bookingDTO.Room.Id) != null)
                     {
                         service.Create(bookingDTO);
-                        return request.CreateResponse(HttpStatusCode.Created, value);
+                        return Get(request, value.Id);
                     }
                 }
                 return request.CreateResponse(HttpStatusCode.BadRequest);
@@ -152,6 +153,7 @@ namespace Nix_Hotel.API.Controllers
                 if (oldBooking!= null && value != null)
                 {
                     var newBooking = mapperWrite.Map<BookingModel, BookingDTO>(value);
+                    newBooking.Id = id;
                     newBooking.Room = mapperRoomWrite.Map<RoomModel, RoomDTO>(value.Room);
                     newBooking.Room.Category = mapperCategory.Map<CategoryModel, CategoryDTO>(value.Room.Category);
                     newBooking.Client = mapperClient.Map<ClientModel, ClientDTO>(value.Client);
@@ -167,9 +169,9 @@ namespace Nix_Hotel.API.Controllers
             }
         }
 
-        public void Delete(int id)
+        public HttpResponseMessage Delete(HttpRequestMessage request, int id)
         {
-
+            return request.CreateResponse(HttpStatusCode.BadRequest);
         }
     }
 }
