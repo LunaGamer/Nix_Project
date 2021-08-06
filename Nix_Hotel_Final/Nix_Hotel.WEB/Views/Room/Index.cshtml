@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Room</h2>
+
+<ul class="list-group">
+    @{ if (User.Identity.IsAuthenticated)
+        {
+            <li class="list-group-item">@Html.ActionLink("View All Rooms", "ViewAll")</li>
+            <li class="list-group-item">@Html.ActionLink("Create new Room", "Add")</li>
+        }
+    }
+    <li class="list-group-item">@Html.ActionLink("Check Free Rooms", "FreeRooms")</li>
+</ul>

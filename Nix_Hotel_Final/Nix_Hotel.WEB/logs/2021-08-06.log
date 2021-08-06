@@ -1,0 +1,596 @@
+2021-08-06 06:07:30.9844 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Trying to Log In as administrator with name HotelAdmin  
+
+2021-08-06 06:07:33.3091 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Logged in succesfulle as HotelAdmin  
+
+2021-08-06 06:07:36.2239 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Viewing the list of all clients 
+
+2021-08-06 06:22:45.2121 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 3 
+
+2021-08-06 06:22:50.3267 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 06:24:52.6006 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 06:24:55.7905 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 06:24:58.5214 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 06:24:58.8234 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 1 was succesfully selected from DB 
+
+2021-08-06 06:25:01.5105 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 3 
+
+2021-08-06 06:25:01.5145 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 3 not found 
+
+2021-08-06 06:25:12.8542 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 06:25:12.8582 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 1 was succesfully selected from DB 
+
+2021-08-06 06:25:34.5333 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 06:25:38.5086 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 1 was succesfully selected from DB 
+
+2021-08-06 06:25:38.5636 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 06:25:38.5896 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 06:25:39.9373 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 06:25:39.9373 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 1 was succesfully selected from DB 
+
+2021-08-06 06:25:42.8323 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 3 
+
+2021-08-06 06:25:42.8323 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 3 not found 
+
+2021-08-06 06:25:48.7690 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 06:25:48.7690 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with = 1 was succesfully selected from DB 
+
+2021-08-06 14:48:37.3823 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 14:48:41.8500 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with id = 1 was succesfully selected from DB 
+
+2021-08-06 14:57:01.8377 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 14:57:05.1603 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with id = 1 was succesfully selected from DB 
+
+2021-08-06 15:51:09.3945 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 15:51:09.7334 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 15:51:18.6717 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 15:51:18.7057 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 15:52:25.8949 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 15:52:29.0439 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 15:53:05.3284 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 15:53:05.3284 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 15:53:24.2308 | Nix_Hotel.WEB.Controllers.AdminController.Logout | INFO | |LOGIN| Logged out 
+
+2021-08-06 15:53:34.7802 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 15:53:34.7802 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 15:53:47.9838 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 15:53:47.9838 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 15:54:28.0046 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 15:54:31.1126 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 15:56:21.3812 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Trying to Log In as administrator with name HotelAdmin  
+
+2021-08-06 15:56:23.3622 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Logged in succesfully as HotelAdmin  
+
+2021-08-06 17:02:25.1233 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:02:28.3155 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:02:32.6133 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 17:02:32.7932 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 17:02:35.7136 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:02:35.7256 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:02:37.0407 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 2 
+
+2021-08-06 17:02:37.0477 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 2 was succesfully selected from DB 
+
+2021-08-06 17:02:38.0835 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:02:38.0945 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:02:38.9855 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 3 
+
+2021-08-06 17:02:38.9855 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 3 was succesfully selected from DB 
+
+2021-08-06 17:02:40.8755 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 3 for editing 
+
+2021-08-06 17:02:40.8755 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Starting editing room with id = 3 
+
+2021-08-06 17:02:50.2793 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 3 
+
+2021-08-06 17:02:50.2793 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 3 edited succesfully 
+
+2021-08-06 17:02:50.3243 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 3 
+
+2021-08-06 17:02:50.3243 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 3 was succesfully selected from DB 
+
+2021-08-06 17:02:52.1749 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:02:52.1749 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:02:54.9355 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 3 
+
+2021-08-06 17:02:54.9355 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 3 was succesfully selected from DB 
+
+2021-08-06 17:02:56.4619 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 3 for editing 
+
+2021-08-06 17:02:56.4699 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Starting editing room with id = 3 
+
+2021-08-06 17:03:01.1482 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 3 
+
+2021-08-06 17:03:01.1482 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 3 edited succesfully 
+
+2021-08-06 17:03:01.1702 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 3 
+
+2021-08-06 17:03:01.1702 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 3 was succesfully selected from DB 
+
+2021-08-06 17:03:03.7258 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:03:03.7348 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:04:39.6722 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:04:43.1596 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:04:50.2310 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 17:04:50.2610 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 17:05:07.9824 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 17:05:08.0014 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 17:05:22.6204 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:05:22.6294 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:05:25.3474 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 17:05:25.5273 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 17:05:26.9279 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:05:26.9349 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:05:49.7313 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 17:05:49.7313 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 17:05:51.4006 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 17:05:51.4246 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 18:27:09.9315 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:27:13.1637 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:27:14.8451 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 1 for editing 
+
+2021-08-06 18:27:16.4485 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 1 
+
+2021-08-06 18:27:16.4565 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 1 edited succesfully 
+
+2021-08-06 18:27:16.5095 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 18:27:16.5165 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 18:27:17.6522 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:27:17.6522 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:27:18.9469 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 2 for editing 
+
+2021-08-06 18:27:20.1125 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 2 
+
+2021-08-06 18:27:20.1125 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 2 edited succesfully 
+
+2021-08-06 18:27:20.1256 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 2 
+
+2021-08-06 18:27:20.1256 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 2 was succesfully selected from DB 
+
+2021-08-06 18:27:20.9664 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:27:20.9664 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:27:29.7750 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 18:27:29.8030 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 18:28:47.1711 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 18:28:50.4661 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 18:28:57.4092 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:28:57.4392 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:28:58.9924 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 1 for editing 
+
+2021-08-06 18:29:00.6046 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 1 
+
+2021-08-06 18:29:00.6086 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 1 edited succesfully 
+
+2021-08-06 18:29:00.6365 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 18:29:00.6365 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 18:29:02.5856 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:29:02.6086 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:29:03.5316 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 2 for editing 
+
+2021-08-06 18:29:04.5738 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 2 
+
+2021-08-06 18:29:04.5768 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 2 edited succesfully 
+
+2021-08-06 18:29:04.5768 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 2 
+
+2021-08-06 18:29:04.5907 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 2 was succesfully selected from DB 
+
+2021-08-06 18:29:05.3467 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 18:29:05.3467 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 18:29:22.0224 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 18:29:35.3902 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 18:29:35.4352 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 18:39:25.8147 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 18:39:29.2940 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 18:39:33.4573 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:39:33.4573 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Can't calculate gain, Требуется поле Month. 
+
+2021-08-06 18:39:47.7545 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:13.3225 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:13.3485 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Can't calculate gain, Требуется поле Month. 
+
+2021-08-06 18:43:16.0488 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:16.0488 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Can't calculate gain, Требуется поле Year. 
+
+2021-08-06 18:43:19.4718 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:19.4718 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Can't calculate gain, Поле Year должно иметь значение между 2000 и 2100. 
+
+2021-08-06 18:43:23.6029 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:23.6029 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2002, Month = 5 succesfully calculated 
+
+2021-08-06 18:43:30.4863 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:30.4863 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 5 succesfully calculated 
+
+2021-08-06 18:43:33.5817 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:33.5817 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 7 succesfully calculated 
+
+2021-08-06 18:43:34.9787 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 18:43:34.9807 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 8 succesfully calculated 
+
+2021-08-06 18:58:43.9615 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 18:58:46.9406 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 18:58:51.4190 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 1 
+
+2021-08-06 18:58:51.5980 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 1 was succesfully selected from DB 
+
+2021-08-06 18:58:54.6877 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 18:58:54.7107 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 18:58:55.9591 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 2 
+
+2021-08-06 18:58:55.9682 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 2 was succesfully selected from DB 
+
+2021-08-06 18:58:57.8742 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 18:58:57.8872 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 19:10:28.7629 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 19:10:32.2140 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 19:10:53.1535 | Nix_Hotel.WEB.Controllers.AdminController.Logout | INFO | |LOGIN| Logged out 
+
+2021-08-06 19:13:05.1459 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:08.3816 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 19:13:21.6283 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:21.6283 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Incorrect dates, Поле DatesCorrect должно иметь значение между -2147483648 и 0. 
+
+2021-08-06 19:13:24.3736 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:24.3736 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Incorrect dates, Поле DatesCorrect должно иметь значение между -2147483648 и 0. 
+
+2021-08-06 19:13:29.6546 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:29.6806 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 19:13:31.5833 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:31.5943 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 19:13:35.5531 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:13:35.5661 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 19:14:40.0557 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Trying to Log In as administrator with name HotelAdmin  
+
+2021-08-06 19:14:42.1972 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Logged in succesfully as HotelAdmin  
+
+2021-08-06 19:15:02.1185 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 19:15:03.9146 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 19:15:56.8139 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:19:32.2143 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 19:19:36.4369 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 19:19:36.4369 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Can't create booking, Arrival Date should be set before Check-out date 
+
+2021-08-06 19:19:45.4490 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 19:19:54.4167 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:19:54.4197 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Incorrect dates, Starting Date should be set before Ending date 
+
+2021-08-06 19:19:57.0319 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 19:19:57.0449 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 19:32:11.5173 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 19:32:14.6471 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 19:32:20.8052 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 2 
+
+2021-08-06 19:32:20.9912 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 2 was succesfully selected from DB 
+
+2021-08-06 19:32:22.3410 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Selecting booking with id = 2 for editing 
+
+2021-08-06 19:32:22.3410 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Starting editing booking with id = 2 
+
+2021-08-06 19:32:24.6221 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Editing booking with id = 2 
+
+2021-08-06 19:32:24.6221 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Booking with id = 2 edited succesfully 
+
+2021-08-06 19:32:24.6731 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 2 
+
+2021-08-06 19:32:24.6841 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 2 was succesfully selected from DB 
+
+2021-08-06 19:32:30.8772 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 19:32:30.8772 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 5 succesfully calculated 
+
+2021-08-06 19:32:34.4241 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 19:32:34.4421 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 19:32:35.2229 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Selecting booking with id = 2 for editing 
+
+2021-08-06 19:32:35.2309 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Starting editing booking with id = 2 
+
+2021-08-06 19:32:37.9365 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Editing booking with id = 2 
+
+2021-08-06 19:32:37.9505 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Booking with id = 2 edited succesfully 
+
+2021-08-06 19:32:37.9505 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 2 
+
+2021-08-06 19:32:37.9695 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 2 was succesfully selected from DB 
+
+2021-08-06 19:32:43.0185 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 19:32:43.0185 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 5 succesfully calculated 
+
+2021-08-06 19:32:48.5943 | Nix_Hotel.WEB.Controllers.AdminController.Logout | INFO | |LOGIN| Logged out 
+
+2021-08-06 19:40:01.6630 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Trying to Log In as administrator with name HotelAdmin  
+
+2021-08-06 19:40:04.0587 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Logged in succesfully as HotelAdmin  
+
+2021-08-06 19:40:29.6198 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 19:40:31.0478 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 19:40:32.4538 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Selecting booking with id = 1 for editing 
+
+2021-08-06 19:40:32.4738 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Starting editing booking with id = 1 
+
+2021-08-06 19:40:40.8318 | Nix_Hotel.WEB.Controllers.AdminController.Logout | INFO | |LOGIN| Logged out 
+
+2021-08-06 20:25:51.5446 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Trying to Log In as administrator with name HotelAdmin  
+
+2021-08-06 20:25:53.9301 | Nix_Hotel.WEB.Controllers.AdminController.Login | INFO | |LOGIN| Logged in succesfully as HotelAdmin  
+
+2021-08-06 20:26:04.8123 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 20:26:06.2014 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 20:26:11.1204 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 20:26:11.1773 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:26:12.7411 | Nix_Hotel.WEB.Controllers.ClientController.Edit | INFO | |CLIENT| Selecting client with id = 1 for editing 
+
+2021-08-06 20:26:17.2225 | Nix_Hotel.WEB.Controllers.ClientController.Edit | INFO | |CLIENT| Editing client with id = 1 
+
+2021-08-06 20:26:17.2225 | Nix_Hotel.WEB.Controllers.ClientController.Edit | INFO | |CLIENT| Client with id = 1 edited succesfully 
+
+2021-08-06 20:26:17.2435 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 1 
+
+2021-08-06 20:26:17.2465 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:26:18.3879 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 20:26:18.3879 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 20:26:29.8286 | Nix_Hotel.WEB.Controllers.ClientController.Add | INFO | |CLIENT| Trying to create new client 
+
+2021-08-06 20:26:29.8286 | Nix_Hotel.WEB.Controllers.ClientController.Add | INFO | |CLIENT| New client was succesfully createed 
+
+2021-08-06 20:26:29.8476 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Selecting client with id = 3 
+
+2021-08-06 20:26:29.8476 | Nix_Hotel.WEB.Controllers.ClientController.View | INFO | |CLIENT| Client with id = 3 was succesfully selected from DB 
+
+2021-08-06 20:26:30.9513 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| Selecting the list of all clients 
+
+2021-08-06 20:26:30.9513 | Nix_Hotel.WEB.Controllers.ClientController.ViewAll | INFO | |CLIENT| List of all clients was succesfully selected from DB 
+
+2021-08-06 20:26:35.5097 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 20:26:35.6047 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 20:27:02.3652 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 20:27:02.3772 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:27:05.2972 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 1 for editing 
+
+2021-08-06 20:27:07.6260 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 1 
+
+2021-08-06 20:27:07.6260 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 1 edited succesfully 
+
+2021-08-06 20:27:07.6520 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 1 
+
+2021-08-06 20:27:07.6520 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:27:09.7051 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 20:27:09.7051 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 20:27:21.5910 | Nix_Hotel.WEB.Controllers.RoomController.Add | INFO | |ROOM| Trying to create new room 
+
+2021-08-06 20:27:21.5910 | Nix_Hotel.WEB.Controllers.RoomController.Add | INFO | |ROOM| New room was succesfully createed 
+
+2021-08-06 20:27:21.6210 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 4 
+
+2021-08-06 20:27:21.6210 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 4 was succesfully selected from DB 
+
+2021-08-06 20:27:28.3649 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 20:27:28.3789 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 20:27:41.5442 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 20:27:41.5442 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Incorrect dates, Starting Date should be set before Ending date 
+
+2021-08-06 20:27:47.2712 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Trying to find free rooms 
+
+2021-08-06 20:27:47.3042 | Nix_Hotel.WEB.Controllers.RoomController.FreeRooms | INFO | |ROOM| Free rooms found 
+
+2021-08-06 20:27:57.5019 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 20:27:57.5528 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 20:27:58.9085 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 1 
+
+2021-08-06 20:27:58.9205 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:28:01.4579 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 20:28:01.4859 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 20:28:12.8465 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Selecting booking with id = 1 for editing 
+
+2021-08-06 20:28:12.8695 | Nix_Hotel.WEB.Controllers.BookingController.Edit | INFO | |BOOKING| Starting editing booking with id = 1 
+
+2021-08-06 20:28:22.5473 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 20:28:22.5853 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 20:28:40.5784 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 20:28:40.6104 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| New booking was succesfully createed 
+
+2021-08-06 20:28:40.6454 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 3 
+
+2021-08-06 20:28:40.6554 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 3 was succesfully selected from DB 
+
+2021-08-06 20:28:46.2675 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 20:28:46.3095 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 20:28:48.3082 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 20:28:48.3142 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 20:28:50.9645 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 2 for editing 
+
+2021-08-06 20:28:52.1390 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 2 
+
+2021-08-06 20:28:52.1390 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 2 edited succesfully 
+
+2021-08-06 20:28:52.1530 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 2 
+
+2021-08-06 20:28:52.1530 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 2 was succesfully selected from DB 
+
+2021-08-06 20:28:53.2066 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| Selecting the list of all rooms 
+
+2021-08-06 20:28:53.2066 | Nix_Hotel.WEB.Controllers.RoomController.ViewAll | INFO | |ROOM| List of all rooms was succesfully selected from DB 
+
+2021-08-06 20:28:54.3101 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Selecting room with id = 4 for editing 
+
+2021-08-06 20:28:55.5734 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Editing room with id = 4 
+
+2021-08-06 20:28:55.5774 | Nix_Hotel.WEB.Controllers.RoomController.Edit | INFO | |ROOM| Room with id = 4 edited succesfully 
+
+2021-08-06 20:28:55.5774 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Selecting room with id = 4 
+
+2021-08-06 20:28:55.5904 | Nix_Hotel.WEB.Controllers.RoomController.View | INFO | |ROOM| Room with id = 4 was succesfully selected from DB 
+
+2021-08-06 20:29:05.5224 | Nix_Hotel.WEB.Controllers.BookingController.Add | INFO | |BOOKING| Trying to create new booking 
+
+2021-08-06 20:29:21.3155 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 20:29:21.3155 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 5 succesfully calculated 
+
+2021-08-06 20:29:28.7302 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 20:29:28.7302 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 7 succesfully calculated 
+
+2021-08-06 20:29:32.3345 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Trying to calculate gain 
+
+2021-08-06 20:29:32.3345 | Nix_Hotel.WEB.Controllers.BookingController.Gain | INFO | |BOOKING| Gain for Year = 2021, Month = 8 succesfully calculated 
+
+2021-08-06 20:29:37.0785 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| Selecting the list of all bookings 
+
+2021-08-06 20:29:37.1185 | Nix_Hotel.WEB.Controllers.BookingController.ViewAll | INFO | |BOOKING| List of all bookings was succesfully selected from DB 
+
+2021-08-06 20:29:41.0600 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Selecting booking with id = 1 
+
+2021-08-06 20:29:41.0820 | Nix_Hotel.WEB.Controllers.BookingController.View | INFO | |BOOKING| Booking with id = 1 was succesfully selected from DB 
+
+2021-08-06 20:29:48.0865 | Nix_Hotel.WEB.Controllers.AdminController.Logout | INFO | |LOGIN| Logged out 
+

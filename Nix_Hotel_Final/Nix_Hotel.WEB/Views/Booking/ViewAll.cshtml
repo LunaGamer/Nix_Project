@@ -1,0 +1,58 @@
+﻿@model List<Nix_Hotel.WEB.Models.BookingModel>
+
+@{
+    ViewBag.Title = "ViewAll";
+}
+
+<h2>Bookings</h2>
+
+<p>
+    @Html.ActionLink("Booking Home page", "Index") |
+    @Html.ActionLink("Create New", "Add")
+</p>
+<table class="table table-hover">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ArrivalDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().CheckoutDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().TotalCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Status.Name)
+        </th>
+        <th></th>
+    </tr>
+@{ int i = 1; }
+@foreach (var booking in Model)
+{
+    <tr>
+        <td>
+            @i @{i++;}
+        </td>
+        <td>
+            @booking.ArrivalDate.ToShortDateString()
+        </td>
+        <td>
+            @booking.CheckoutDate.ToShortDateString()
+        </td>
+        <td>
+            @booking.TotalCost
+        </td>
+        <td>
+            @booking.Status.Name
+        </td>
+        <td>
+            @Html.ActionLink("View", "View", new { id = booking.Id }) |
+            @Html.ActionLink("Edit", "Edit", new { id = booking.Id })
+        </td>
+    </tr>
+}
+
+</table>

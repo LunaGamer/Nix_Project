@@ -1,0 +1,58 @@
+﻿@model Nix_Hotel.WEB.Models.RoomModel
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>RoomModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Beds)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Beds)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "ViewAll")
+</p>

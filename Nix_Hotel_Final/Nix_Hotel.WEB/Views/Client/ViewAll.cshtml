@@ -1,0 +1,42 @@
+﻿@model List<Nix_Hotel.WEB.Models.ClientModel>
+
+@{
+    ViewBag.Title = "ViewAll";
+}
+
+<h2>Clients</h2>
+
+<p>
+    @Html.ActionLink("Clients Home page", "Index") |
+    @Html.ActionLink("Create New", "Add")
+</p>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                Client Full Name
+            </th>
+            <th>
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in Model)
+        {
+        <tr>
+            <td>
+                @client.ClientFullName
+            </td>
+            <td>
+                @Html.ActionLink("View", "View", new { id = client.Id })
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = client.Id })
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
